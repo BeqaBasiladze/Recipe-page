@@ -62,6 +62,17 @@
 			.ingredients-container li::marker {
 				color: #854632;
 			}
+			.nutrition-list {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				ul {
+					list-style: none;
+				}
+				.fw-bold {
+					color: #854632;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -147,10 +158,18 @@
 					additional fillings.
 				</p>
 				<div class="nutrition-list">
-					<p>Calories 77kcal</p>
-					<p>Carbs 0g</p>
-					<p>Protein 20g</p>
-					<p>Fat 22g</p>
+					<ul>
+						<li>Calories</li>
+						<li>Carbs</li>
+						<li>Protein</li>
+						<li>Fat</li>
+					</ul>
+					<ul class="fw-bold">
+						<li>277kcal</li>
+						<li>0g</li>
+						<li>20g</li>
+						<li>22g</li>
+					</ul>
 				</div>
 			</div>
 		</div>
